@@ -24,6 +24,15 @@ __init__.py:F401,F403,F405\
 """
 
 
+[[tool.mypy.overrides]]
+module = 'uvicorn.*'
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = 'fastapi_mail.*'
+ignore_missing_imports = true
+
+
 [tool.poetry]
 name = 'portfolio_rest_api'
 version = '0.1.0'
