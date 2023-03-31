@@ -27,4 +27,8 @@ jobs:
 
     - name: Analyse the code with pylint
       run: |
-        poetry run pylint src --fail-under 9
+        poetry run pylint portfolio_rest_api --fail-under 9
+
+    - name: Analyse the tests with pylint
+      run: |
+        poetry run pylint tests --fail-under 9
