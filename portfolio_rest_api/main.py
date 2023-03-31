@@ -87,5 +87,6 @@ def send_email_background(background_tasks: BackgroundTasks, subject: str, email
        fastmail.send_message, message, template_name='email.html'
     )
 
+
 if __name__ == '__main__':
     uvicorn.run('main:app', host=config['HOST'], port=config['PORT'], reload=True)
