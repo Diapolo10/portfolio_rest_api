@@ -3,6 +3,7 @@
 # import pytest
 
 def test_stub():
+    """Default test"""
+
     assert True
     assert not False
-    assert "complex motives"

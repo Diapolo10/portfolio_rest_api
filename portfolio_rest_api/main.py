@@ -1,3 +1,5 @@
+"""Portfolio site REST API"""
+
 import os
 from pathlib import Path
 
@@ -57,28 +59,32 @@ app.add_middleware(
 
 
 async def send_email_async(subject: str, email_to: str, body: dict):
+    """Sends emails asynchronously"""
+
     message = MessageSchema(
         subject=subject,
         recipients=[email_to],
         body=body,
         subtype='html',
     )
-    
-    fm = FastMail(email_config)
 
-    await fm.send_message(message, template_name='email.html')
+    fastmail = FastMail(email_config)
+
+    await fastmail.send_message(message, template_name='email.html')
 
 
 def send_email_background(background_tasks: BackgroundTasks, subject: str, email_to: str, body: dict):
+    """Background task for sending emails"""
+
     message = MessageSchema(
         subject=subject,
         recipients=[email_to],
         body=body,
         subtype='html'
     )
-    fm = FastMail(email_config)
+    fastmail = FastMail(email_config)
     background_tasks.add_task(
-       fm.send_message, message, template_name='email.html'
+       fastmail.send_message, message, template_name='email.html'
     )
 
 if __name__ == '__main__':
