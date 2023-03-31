@@ -67,7 +67,7 @@ classifiers = [
 python = '^3.10'
 fastapi = '^0.78.0'
 fastapi-mail = '^1.2.5'
-uvicorn = '^0.17.6'
+uvicorn = '^0.21.1'
 python-dotenv = '^1.0.0'
 
 
