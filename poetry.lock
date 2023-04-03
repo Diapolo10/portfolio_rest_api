@@ -309,14 +309,14 @@ test = ["anyio[trio] (>=3.2.1,<4.0.0)", "black (==23.1.0)", "coverage[toml] (>=6
 
 [[package]]
 name = "fastapi-mail"
-version = "1.2.5"
+version = "1.2.7"
 description = "Simple lightweight mail library for FastApi"
 category = "main"
 optional = false
 python-versions = ">=3.8.1,<4.0"
 files = [
-    {file = "fastapi_mail-1.2.5-py3-none-any.whl", hash = "sha256:6dc41bd47c2276145a5e6d7d8271082a78b19fc4d506883b277f6f0428c7fa9f"},
-    {file = "fastapi_mail-1.2.5.tar.gz", hash = "sha256:01ae8c221dd49d7b47ddab476766ecf720d7246e114a10b84d3e4fd9c3fc34d3"},
+    {file = "fastapi_mail-1.2.7-py3-none-any.whl", hash = "sha256:26acc4201551203c7aa86a91b7c022fee3fe0d08824f0924dc0004448910852b"},
+    {file = "fastapi_mail-1.2.7.tar.gz", hash = "sha256:22db99be0a842b0535d4cc01712a1677abcbb94fd11cca6bf5e8826139116b00"},
 ]
 
 [package.dependencies]
@@ -325,7 +325,7 @@ blinker = ">=1.5,<2.0"
 email-validator = ">=1.1,<2.0"
 Jinja2 = ">=3.0,<4.0"
 pydantic = ">=1.8,<2.0"
-starlette = ">=0.19,<1.0"
+starlette = ">=0.24,<1.0"
 
 [package.extras]
 httpx = ["httpx[httpx] (>=0.23,<0.24)"]
@@ -1099,4 +1099,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "1376944f8fb00a4bdf298c99607f49e9a49b715639b10e4465a6a285ed1f85f7"
+content-hash = "f4178cf6963eb1e6abfd3a17edb69d5df489fbf6a346657394228146943b3764"
