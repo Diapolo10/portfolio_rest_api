@@ -82,7 +82,7 @@ optional = true
 [tool.poetry.group.linters.dependencies]
 flake8 = '^6.0.0'
 flake8-pyproject = '^1.2.3'
-pylint = '^2.17.3'
+pylint = '^2.17.4'
 
 
 [tool.poetry.group.tests]
