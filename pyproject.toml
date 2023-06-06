@@ -93,7 +93,7 @@ optional = true
 coverage = {version = '^7.2.7', extras = ['toml',]}
 pytest = '^7.3.1'
 pytest-cov = '^4.1.0'
-tox = '^4.5.2'
+tox = '^4.6.0'
 tox-gh-actions = '^3.1.1'
 
 
