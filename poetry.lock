@@ -293,13 +293,13 @@ all = ["email-validator (>=2.0.0)", "httpx (>=0.23.0)", "itsdangerous (>=1.1.0)"
 
 [[package]]
 name = "fastapi-mail"
-version = "1.4.0"
+version = "1.4.1"
 description = "Simple lightweight mail library for FastApi"
 optional = false
 python-versions = ">=3.8.1,<4.0"
 files = [
-    {file = "fastapi_mail-1.4.0-py3-none-any.whl", hash = "sha256:1984651e50a80b613ecc4dfb0784164a6eee9218837dab06759e2b9b7b52105e"},
-    {file = "fastapi_mail-1.4.0.tar.gz", hash = "sha256:a0ac47f4516a56f3f1be21860b6d31a24f7cc4d849e58d90e745d58d74bed152"},
+    {file = "fastapi_mail-1.4.1-py3-none-any.whl", hash = "sha256:fa5ef23b2dea4d3ba4587f4bbb53f8f15274124998fb4e40629b3b636c76c398"},
+    {file = "fastapi_mail-1.4.1.tar.gz", hash = "sha256:9095b713bd9d3abb02fe6d7abb637502aaf680b52e177d60f96273ef6bc8bb70"},
 ]
 
 [package.dependencies]
@@ -1143,4 +1143,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "40a49859f169a42f3260a9d85fc1593ce6063e348b3ef131d68118bdda57838b"
+content-hash = "baee62e5ce6c6bc64d9f8963dbe63ff36f5474ca499c53f4904b02e893c9f9f8"
