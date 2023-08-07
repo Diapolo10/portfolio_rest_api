@@ -65,7 +65,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = '^3.10'
-fastapi = '^0.100.1'
+fastapi = '^0.101.0'
 fastapi-mail = '^1.4.1'
 uvicorn = '^0.23.1'
 python-dotenv = '^1.0.0'
