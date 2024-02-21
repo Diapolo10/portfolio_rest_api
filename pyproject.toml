@@ -90,7 +90,7 @@ optional = true
 
 
 [tool.poetry.group.tests.dependencies]
-coverage = {version = '^7.4.1', extras = ['toml',]}
+coverage = {version = '^7.4.2', extras = ['toml',]}
 pytest = '^8.0.1'
 pytest-cov = '^4.1.0'
 tox = '^4.13.0'
