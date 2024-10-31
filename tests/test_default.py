@@ -1,8 +1,7 @@
-"""Stub unit test file"""
+"""Stub unit test file."""
 
 
 def test_stub():
-    """Default test"""
-
+    """Default test."""
     assert True
     assert not False
