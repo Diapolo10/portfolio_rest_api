@@ -2,13 +2,16 @@
 
 from __future__ import annotations
 
+from typing import TYPE_CHECKING
+
 from fastapi import APIRouter, status
 
-from portfolio_rest_api.models import Email
+if TYPE_CHECKING:
+    from portfolio_rest_api.models import Email
 
 router = APIRouter(
-    prefix='/email',
-    tags=['email'],
+    prefix='/contact',
+    tags=['contact'],
 )
 
 
