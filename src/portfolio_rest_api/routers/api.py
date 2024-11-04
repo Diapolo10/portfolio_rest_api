@@ -2,7 +2,7 @@
 
 from fastapi import APIRouter
 
-from portfolio_rest_api.routers.email import router as email_router
+from portfolio_rest_api.routers.contact import router as email_router
 
 router = APIRouter(
     prefix='/api/v1',
