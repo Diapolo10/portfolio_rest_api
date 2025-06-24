@@ -67,7 +67,7 @@ python = "^3.12"
 fastapi = "^0.115.13"
 fastapi-mail = "^1.5.0"
 uvicorn = "^0.34.3"
-python-dotenv = "^1.1.0"
+python-dotenv = "^1.1.1"
 
 
 [tool.poetry.group.dev.dependencies]
