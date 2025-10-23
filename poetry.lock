@@ -1860,14 +1860,14 @@ virtualenv = ">=20.34"
 
 [[package]]
 name = "tox-gh-actions"
-version = "3.4.0"
+version = "3.5.0"
 description = "Seamless integration of tox into GitHub Actions"
 optional = false
 python-versions = ">=3.7"
 groups = ["tests"]
 files = [
-    {file = "tox_gh_actions-3.4.0-py3-none-any.whl", hash = "sha256:31abb90827472181c17ed07385493e4614fd8c03955e43fef42c06a366712850"},
-    {file = "tox_gh_actions-3.4.0.tar.gz", hash = "sha256:76e80610fe5cda2f57af0ef45537d8f86c36d0bb8823feb20f85d30f4a7600ce"},
+    {file = "tox_gh_actions-3.5.0-py3-none-any.whl", hash = "sha256:070790114c92f4c94337047515ca5e077ceb269a5cb9366e0a0b3440a024eca1"},
+    {file = "tox_gh_actions-3.5.0.tar.gz", hash = "sha256:cc8e148c4513042e5019973e5672594c3df241b035e7fb550f6f778588110051"},
 ]
 
 [package.dependencies]
@@ -2007,4 +2007,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.12"
-content-hash = "552a31ac5d40679330f8a22166a4208e50e32c0cc3befcb1e6bc0adfeb60012e"
+content-hash = "cd28e5f9c134f56c2fcf26eea0bf54da1055c34c1721d657cf970c49c3f1c0a0"
