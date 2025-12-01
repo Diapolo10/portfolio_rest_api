@@ -71,7 +71,7 @@ python-dotenv = "^1.2.1"
 
 
 [tool.poetry.group.dev.dependencies]
-mypy = "^1.18.2"
+mypy = "^1.19.0"
 
 
 [tool.poetry.group.linters]
