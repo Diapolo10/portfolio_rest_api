@@ -80,7 +80,7 @@ jobs:
            src/tccgs/script.py
 
       - name: Upload Builds
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: built-binary
           path: |
