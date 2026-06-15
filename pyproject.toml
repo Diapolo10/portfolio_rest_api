@@ -24,7 +24,7 @@ classifiers = [
     "Typing :: Typed",
 ]
 dependencies = [
-    "fastapi>=0.136.3",
+    "fastapi>=0.137.0",
     "fastapi-mail>=1.6.4",
     "uvicorn>=0.48.0",
     "python-dotenv>=1.2.2",
