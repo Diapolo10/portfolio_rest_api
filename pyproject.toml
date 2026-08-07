@@ -157,7 +157,11 @@ cache-keys = [
     { file = "pyproject.toml" },
     { git = { commit = true, tags = true } },
 ]
-constraint-dependencies = ["pygments>=2.20.0"]
+constraint-dependencies = [
+    "aiosmtplib>=5.1.1", # Fixes CVE-2026-53533
+    "pygments>=2.20.0",  # Fixes CVE-2026-4539
+    "starlette>=1.3.1",  # Fixes CVE-2026-54283
+]
 
 [tool.uv-dynamic-versioning]
 bump = true
