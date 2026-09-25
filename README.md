@@ -1,3 +1,3 @@
-# python-poetry-template
+# portfolio-rest-api
 
-A template Poetry project structure.
+Backend for a portfolio website.
